@@ -4,3 +4,6 @@
 name = "";
 hp = 3;
 attack = 1;
+
+xx = x;
+yy = y;

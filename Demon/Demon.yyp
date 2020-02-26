@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "811de366-27a4-453d-b423-1b8cd72c6c5d",
+            "Value": {
+                "id": "f0a8a9e4-13e2-4060-a4d2-af887658a045",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8140f3c3-574d-4b6f-a0af-dc20c8622719",
             "Value": {
                 "id": "49c1d383-1296-45f5-ab4f-2d67a8c08b7d",
@@ -175,11 +183,35 @@
             }
         },
         {
+            "Key": "b1d91857-aab2-4084-86ed-34f8639a099b",
+            "Value": {
+                "id": "3910de11-bd2c-467e-83e0-1f69b9aaa30d",
+                "resourcePath": "sprites\\spr_placeholder_enemy\\spr_placeholder_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6e0f037-ef62-4067-8d95-4caff00a48ea",
+            "Value": {
+                "id": "e4b55622-2074-4acb-9b26-e291b81fa8d7",
+                "resourcePath": "objects\\obj_enemy_manager\\obj_enemy_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b84aa205-d647-4aa6-9830-1280723cb1c8",
             "Value": {
                 "id": "2a52a4d2-4716-4023-9d80-ad4c8c5ddc7a",
                 "resourcePath": "views\\b84aa205-d647-4aa6-9830-1280723cb1c8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b96cf45f-def1-4e2a-b183-c429d0c9494e",
+            "Value": {
+                "id": "487e3adb-654c-4eb1-a4e6-42a98df2aa14",
+                "resourcePath": "scripts\\func_move_agent\\func_move_agent.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -232,7 +264,8 @@
         }
     ],
     "script_order": [
-        "7aebc5fd-e43b-450b-824a-ffba6bf82221"
+        "7aebc5fd-e43b-450b-824a-ffba6bf82221",
+        "b96cf45f-def1-4e2a-b183-c429d0c9494e"
     ],
     "tutorial": ""
 }
