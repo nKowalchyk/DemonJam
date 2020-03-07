@@ -1,6 +1,25 @@
 /// @description Update
 // I can write my code in the editor
 
+
+range = 3	
+if (oil < 66)
+{
+	range = 2;
+}
+
+if (oil < 33)
+{
+	range = 1	;
+}
+
+if (oil <= 0)
+{
+	range = 0;	
+}
+
+event_inherited()
+
 if global.game_state == game_state.input_ready {
 
 	if keyboard_check_pressed(vk_left) {
@@ -18,6 +37,8 @@ if global.game_state == game_state.input_ready {
 	
 	if xx != x || yy != y {
 		global.game_state = game_state.player_moving;
+		sane -= saneMod;
+		oil -= oilMod;
 	}
 }
 
