@@ -31,11 +31,11 @@
     },
     "resources": [
         {
-            "Key": "0177cde3-8dc5-4e88-b823-84df8020107e",
+            "Key": "00ed752c-b383-4656-9515-7331f48fd346",
             "Value": {
-                "id": "eca4257c-492a-4147-9cfb-1983754bf138",
-                "resourcePath": "objects\\obj_lightParent\\obj_lightParent.yy",
-                "resourceType": "GMObject"
+                "id": "be195c73-4721-4ead-a13f-1496a05f37a6",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -47,11 +47,27 @@
             }
         },
         {
+            "Key": "295f9511-fb40-4d08-acd3-8c037186625e",
+            "Value": {
+                "id": "aa73e013-b447-4451-8e34-4bfee1bc9d4b",
+                "resourcePath": "objects\\obj_node\\obj_node.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f4b6d6f-d578-48d1-9162-e2ec304943a4",
             "Value": {
                 "id": "4611b586-9a79-4419-8c83-bcc6a7bb29f9",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3e13d5cb-5298-475d-bbdf-afdee8248861",
+            "Value": {
+                "id": "45601fdd-a7dd-42d7-9013-2b100c3b6d06",
+                "resourcePath": "scripts\\func_construct_path\\func_construct_path.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -68,6 +84,14 @@
                 "id": "f9eb9495-638b-4347-9a82-cfdc5a9a66e3",
                 "resourcePath": "tilesets\\tileset_test\\tileset_test.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5d09bf04-7b4d-4428-a236-d49de9ac2687",
+            "Value": {
+                "id": "d7388138-1e60-4f72-9ced-88f558a8d9ba",
+                "resourcePath": "scripts\\func_get_distance\\func_get_distance.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -271,6 +295,22 @@
             }
         },
         {
+            "Key": "aba8984a-d15e-47ed-86ce-5f58f5188f24",
+            "Value": {
+                "id": "71ffd941-79da-4af2-98ee-9f776a98bba3",
+                "resourcePath": "scripts\\func_calculate_path_to_player\\func_calculate_path_to_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "adc6d8a1-b20c-4665-81f2-3cb9f4552b87",
+            "Value": {
+                "id": "92bbb7c8-afa2-451a-92b4-912f83c9f899",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b1d91857-aab2-4084-86ed-34f8639a099b",
             "Value": {
                 "id": "3910de11-bd2c-467e-83e0-1f69b9aaa30d",
@@ -351,11 +391,19 @@
             }
         },
         {
-            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Key": "d91f9e1f-e7ae-4a82-be70-9a5b39604bb4",
             "Value": {
-                "id": "4e7417cd-ae86-4ae8-9e7b-7e86a42f2c33",
-                "resourcePath": "options\\android\\options_android.yy",
-                "resourceType": "GMAndroidOptions"
+                "id": "091d4b48-f52e-4202-be02-0d7c6ac703c0",
+                "resourcePath": "scripts\\func_adjacent\\func_adjacent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e7ba617e-b477-4f5b-9414-1a05209b9bf9",
+            "Value": {
+                "id": "d1a0c505-add4-422d-8a8f-c3c808062d3a",
+                "resourcePath": "scripts\\func_move_to_node\\func_move_to_node.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -378,8 +426,11 @@
     "script_order": [
         "7aebc5fd-e43b-450b-824a-ffba6bf82221",
         "b96cf45f-def1-4e2a-b183-c429d0c9494e",
-        "f4bb46e7-f014-4e4b-8206-d6f318aa3a6d",
-        "9303f6ac-9e7b-45d4-b79f-6d48b2030d9b"
+        "d91f9e1f-e7ae-4a82-be70-9a5b39604bb4",
+        "aba8984a-d15e-47ed-86ce-5f58f5188f24",
+        "e7ba617e-b477-4f5b-9414-1a05209b9bf9",
+        "5d09bf04-7b4d-4428-a236-d49de9ac2687",
+        "3e13d5cb-5298-475d-bbdf-afdee8248861"
     ],
     "tutorial": ""
 }
