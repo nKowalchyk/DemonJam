@@ -4,13 +4,36 @@ var enemies_moving = false;
 
 if global.game_state == game_state.enemy_moving {
 	with(obj_enemy) {
-		func_move_agent(self, xx, yy);
-		if x != xx || y != yy {
+		if calculate && !func_adjacent(self) {
+			current_path = func_calculate_path_to_player(self, obj_player);
+			calculate = false;
 			enemies_moving = true;
+			var current_node = current_path[| 1];
+			xx = current_node[? "x"];
+			yy = current_node[? "y"];
+		}
+		else if xx != x || yy != y {
+			if place_empty(xx, yy) {
+				func_move_agent(self, xx, yy);
+				enemies_moving = true;	
+			}
+			else {
+				enemies_moving = false;	
+			}
+		}
+		else if xx == x && yy == y {
+			enemies_moving = false;
+			x = round(x);
+			y = round(y);
 		}
 	}
 }
 
 if enemies_moving == false && global.game_state == game_state.enemy_moving {
+	with(obj_enemy) {
+		calculate = true;
+		xx = x;
+		yy = y;
+	}
 	global.game_state = game_state.input_ready;	
 }

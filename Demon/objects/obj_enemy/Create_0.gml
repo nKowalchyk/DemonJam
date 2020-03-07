@@ -2,6 +2,11 @@
 
 hp = 3;
 attack = 1;
-
-xx = x + 64;
+// enemies current path index
+pos = 1;
+xx = x;
 yy = y;
+
+calculate = true;
+
+current_path = ds_list_create();
