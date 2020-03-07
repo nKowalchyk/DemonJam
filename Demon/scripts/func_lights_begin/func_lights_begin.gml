@@ -2,7 +2,7 @@ if (event_type == ev_draw) and (event_number == 0)
 {
 		if (!surface_exists(iLight.light_surface))
 		{
-			iLight.light_surface = surface_create(1024, 768);	
+			iLight.light_surface = surface_create(1024, 1024);	
 			
 		}
 		
