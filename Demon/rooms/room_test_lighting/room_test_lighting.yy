@@ -11,7 +11,6 @@
         "9efbb321-954c-45c8-944a-4d374982c2a0",
         "031e4a88-8d21-4a24-bfba-ed669f9c8d54",
         "a65b7083-8d8b-425c-8c89-19145c2a2d4b",
-        "c580d652-ebd0-40fb-8ed8-09edfe9a359a",
         "992d1ca2-c381-4f0e-ad33-15e84ebf76d3",
         "2b4e3ec0-a914-4b42-aadb-86e7d7618d65",
         "b326fd5f-15ea-42f8-83e9-b2975bfac4a7",
@@ -33,7 +32,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "iLight","id": "c580d652-ebd0-40fb-8ed8-09edfe9a359a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "iLight","objId": "7df34743-d8af-4a81-a2bc-23149b441a66","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": -32}
+
             ],
             "layers": [
 
