@@ -13,9 +13,13 @@ if global.game_state == game_state.enemy_moving {
 			yy = current_node[? "y"];
 		}
 		else if xx != x || yy != y {
-			show_debug_message(string(y) + " " + string(y));
-			func_move_agent(self, xx, yy);
-			enemies_moving = true;
+			if place_empty(xx, yy) {
+				func_move_agent(self, xx, yy);
+				enemies_moving = true;	
+			}
+			else {
+				enemies_moving = false;	
+			}
 		}
 		else if xx == x && yy == y {
 			enemies_moving = false;

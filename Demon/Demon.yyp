@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1edb8e5b-36e3-4542-b7ce-4d1e392a2d75",
+            "Value": {
+                "id": "9c9c8555-1852-468a-82d6-d2bd8af53335",
+                "resourcePath": "objects\\obj_lightParent\\obj_lightParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "295f9511-fb40-4d08-acd3-8c037186625e",
             "Value": {
                 "id": "aa73e013-b447-4451-8e34-4bfee1bc9d4b",
@@ -430,7 +438,9 @@
         "aba8984a-d15e-47ed-86ce-5f58f5188f24",
         "e7ba617e-b477-4f5b-9414-1a05209b9bf9",
         "5d09bf04-7b4d-4428-a236-d49de9ac2687",
-        "3e13d5cb-5298-475d-bbdf-afdee8248861"
+        "3e13d5cb-5298-475d-bbdf-afdee8248861",
+        "9303f6ac-9e7b-45d4-b79f-6d48b2030d9b",
+        "f4bb46e7-f014-4e4b-8206-d6f318aa3a6d"
     ],
     "tutorial": ""
 }
