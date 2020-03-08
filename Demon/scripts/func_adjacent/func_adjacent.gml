@@ -16,3 +16,5 @@ if position_meeting(enemy.x, enemy.y + global.step_size, obj_player) {
 if position_meeting(enemy.x, enemy.y - global.step_size, obj_player) {
 	return true;
 }
+
+return false;
