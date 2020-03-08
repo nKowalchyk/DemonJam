@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 
-range = 2
-
+range = -1
+lastRange = range;
