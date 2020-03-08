@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "19795104-35fc-4d66-bb00-74f3b3b08064",
+            "Value": {
+                "id": "7993ba24-f8d1-4d3e-99c0-54851e8cf361",
+                "resourcePath": "sprites\\spr_hurt_box\\spr_hurt_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1edb8e5b-36e3-4542-b7ce-4d1e392a2d75",
             "Value": {
                 "id": "9c9c8555-1852-468a-82d6-d2bd8af53335",
@@ -103,11 +111,35 @@
             }
         },
         {
+            "Key": "329e4e45-8398-430f-9da6-9167133822a2",
+            "Value": {
+                "id": "587bdda9-b2c1-46d0-ae13-54bc4da743fb",
+                "resourcePath": "objects\\obj_blocker\\obj_blocker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3dc353d2-8f9a-4ed2-9201-6c2818f2734b",
+            "Value": {
+                "id": "755d89ab-0bf6-4a41-bb31-8b88214e16b4",
+                "resourcePath": "scripts\\func_highlight_around\\func_highlight_around.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e13d5cb-5298-475d-bbdf-afdee8248861",
             "Value": {
                 "id": "45601fdd-a7dd-42d7-9013-2b100c3b6d06",
                 "resourcePath": "scripts\\func_construct_path\\func_construct_path.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "49f94403-bf78-4e33-9505-19bd4f9c43ac",
+            "Value": {
+                "id": "0ae385dd-e943-4cb4-a431-dfbf6dc64405",
+                "resourcePath": "objects\\obj_hurt_box\\obj_hurt_box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -260,6 +292,14 @@
                 "id": "e83c5028-299a-4d62-9573-e688f81e3272",
                 "resourcePath": "views\\85f2a47a-d524-4fa8-adc7-4e36b5d8f7a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88464390-7432-4f70-9e3b-ee4597617134",
+            "Value": {
+                "id": "7ddd2e2d-cae7-48c4-a212-820796d8bb87",
+                "resourcePath": "sprites\\spr_hurt_box_disabled\\spr_hurt_box_disabled.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -537,7 +577,8 @@
         "3e13d5cb-5298-475d-bbdf-afdee8248861",
         "9303f6ac-9e7b-45d4-b79f-6d48b2030d9b",
         "f4bb46e7-f014-4e4b-8206-d6f318aa3a6d",
-        "0f9f00d8-507f-4a75-ba6f-d109cadc6c9f"
+        "0f9f00d8-507f-4a75-ba6f-d109cadc6c9f",
+        "3dc353d2-8f9a-4ed2-9201-6c2818f2734b"
     ],
     "tutorial": ""
 }

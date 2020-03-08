@@ -12,14 +12,18 @@ if global.game_state == game_state.enemy_moving {
 			xx = current_node[? "x"];
 			yy = current_node[? "y"];
 		}
-		else if func_adjacent(self) {
+		else if func_adjacent(self) && can_attack {
+			can_attack = false;
 			func_deal_damage(self, obj_player);
 		}
-		else if abs(xx - x) > 0.1 || abs(yy - y) > 0.1 {
-			if place_empty(xx, yy) {
-				func_move_agent(self, xx, yy);
-				enemies_moving = true;	
-			}	
+		else if place_meeting(xx, yy, obj_blocker) {
+			xx = x;
+			yy = y;
+		}
+		else if (abs(xx - x) > 0.1 || abs(yy - y) > 0.1) && can_attack {
+			func_move_agent(self, xx, yy);
+			can_attack = false;
+			enemies_moving = true;
 		}
 	}
 }
@@ -27,6 +31,7 @@ if global.game_state == game_state.enemy_moving {
 if enemies_moving == false && global.game_state == game_state.enemy_moving {
 	with(obj_enemy) {
 		calculate = true;
+		can_attack = true;
 		x = xx;
 		y = yy;
 	}

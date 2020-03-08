@@ -1,23 +1,23 @@
 {
-    "id": "811de366-27a4-453d-b423-1b8cd72c6c5d",
+    "id": "49f94403-bf78-4e33-9505-19bd4f9c43ac",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy",
+    "name": "obj_hurt_box",
     "eventList": [
         {
-            "id": "4c701265-47b1-4eb9-8604-a8ef47e6f2a3",
+            "id": "7ddc8cab-4b6e-4ff3-b6ad-ff527eb762e5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "811de366-27a4-453d-b423-1b8cd72c6c5d"
+            "m_owner": "49f94403-bf78-4e33-9505-19bd4f9c43ac"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "329e4e45-8398-430f-9da6-9167133822a2",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -32,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "b1d91857-aab2-4084-86ed-34f8639a099b",
+    "solid": false,
+    "spriteId": "19795104-35fc-4d66-bb00-74f3b3b08064",
     "visible": true
 }

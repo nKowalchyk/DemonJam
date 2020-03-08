@@ -104,12 +104,10 @@ while !found && ds_list_size(open_list) > 0 {
 		
 			var skip_successor = false;
 		
-			if !place_empty(current_successor_node[? "x"], current_successor_node[? "y"]) {
+			if place_meeting(current_successor_node[? "x"], current_successor_node[? "y"], obj_enemy) {
 				skip_successor = true;	
 			}
-			for(var j = 0; j < ds_list_size(successor_nodes); j++) {
-				
-			}
+
 		
 			for(var j = 0; j < ds_list_size(open_list); j++) {
 				var current_open_node = open_list[| j];
@@ -130,7 +128,6 @@ while !found && ds_list_size(open_list) > 0 {
 			}
 
 			if !skip_successor {
-				ds_list_add(open_list, current_successor_node);
 				ds_list_add(open_list, current_successor_node);
 			}
 		
