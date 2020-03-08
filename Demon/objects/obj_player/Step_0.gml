@@ -23,7 +23,12 @@ if room == Level_1
 
 if hp <= 0
 {
-	instance_destroy()	
+	visible = false;
+	if range != -1
+	{
+		instance_create_layer(0, 0, "GUI", obj_fade_to_black)
+		range = -1
+	}
 }
 
 range = 3	
@@ -63,15 +68,19 @@ if global.game_state == game_state.input_ready {
 	if !hurt_box_visible and !lanternThrow{
 		if keyLeft && !instance_place(x - global.step_size, y, obj_blocker) {
 		xx = x - global.step_size;
+		audio_play_sound(snd_step, 1, false)
 		}
 		else if keyRight && !instance_place(x + global.step_size, y, obj_blocker) {
 			xx = x + global.step_size;
+			audio_play_sound(snd_step, 1, false)
 		}
 		else if keyUp && !instance_place(x, y - global.step_size, obj_blocker){
 			yy = y - global.step_size;
+			audio_play_sound(snd_step, 1, false)
 		}
 		else if keyDown && !instance_place(x, y + global.step_size, obj_blocker) {
 			yy = y + global.step_size;
+			audio_play_sound(snd_step, 1, false)
 		}
 	}
 	
@@ -131,6 +140,7 @@ if global.game_state == game_state.input_ready {
 				if inst.hp <= 0 {
 					with(inst) instance_destroy();	
 				}
+				
 			}
 			
 			var inst = instance_place(left_hurt_box.x, left_hurt_box.y, obj_Torch);
@@ -207,7 +217,7 @@ if global.game_state == game_state.player_moving {
 	}
 }
 
-if hp < lastHp
+if (hp < lastHp) and hp != 0
 {
 	instance_create_layer(0, 0, "GUI", obj_redFlicker)	
 }

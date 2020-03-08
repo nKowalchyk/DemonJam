@@ -1,1 +1,2 @@
 func_init();
+randomize();

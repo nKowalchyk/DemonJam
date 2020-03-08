@@ -7,6 +7,7 @@ event_inherited();
 if lastRange != range
 {
 	obj_player.sane += 40	
+	audio_play_sound(snd_torch, 1, false)
 }
 
 lastRange = range;

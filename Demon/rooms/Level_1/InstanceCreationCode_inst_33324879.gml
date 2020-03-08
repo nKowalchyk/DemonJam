@@ -1,1 +1,1 @@
-content = "Collect oil to refill your lantern."
+content = "Some items may help refill your resources."

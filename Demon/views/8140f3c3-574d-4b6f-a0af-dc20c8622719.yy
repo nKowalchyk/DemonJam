@@ -12,6 +12,12 @@
         "6aa95d61-f491-46f1-a560-c043f0b697d1",
         "c729a297-646a-4734-be6e-edf235b0d4e3",
         "284d2406-40aa-4655-8f05-1b047512c579",
+        "d29afdc8-5864-4451-8ed2-92a15b39c1f4",
+        "12239321-a72c-4cd4-a580-a7657c94b8b0",
+        "fcd074c2-08cf-4cbf-a711-cd20709789ce",
+        "a52c640a-bd2c-4f3f-ad53-48f30472ab53",
+        "c6b190b0-aab5-4e44-a44e-f1d3e315fcd8",
+        "70fad8fe-5966-4fca-ba83-45b2e758aa21",
         "cd4dbf5f-acad-4a5a-97c4-1ea27efa39fb"
     ],
     "filterType": "GMRoom",
