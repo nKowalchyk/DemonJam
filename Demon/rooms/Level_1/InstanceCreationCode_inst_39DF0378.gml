@@ -1,0 +1,1 @@
+content = "Attacking or throwing your lantern at torches\ncan light them at the cost of oil.\nThis can restore your sanity when done."

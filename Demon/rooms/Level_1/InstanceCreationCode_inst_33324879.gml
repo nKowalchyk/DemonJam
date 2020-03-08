@@ -1,0 +1,1 @@
+content = "Collect oil to refill your lantern."

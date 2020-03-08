@@ -1,0 +1,1 @@
+content = "Click your lantern to ready a throw.\nClick a tile to throw your lantern.\nBe sure to retrieve your lantern after throwing!"

@@ -15,3 +15,4 @@ else
 	oil = global.oil;
 	lantern = global.lantern;
 }
+lastHp = hp

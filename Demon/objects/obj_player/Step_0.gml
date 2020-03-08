@@ -207,6 +207,13 @@ if global.game_state == game_state.player_moving {
 	}
 }
 
+if hp < lastHp
+{
+	instance_create_layer(0, 0, "GUI", obj_redFlicker)	
+}
+
+lastHp = hp
+
 if hp <= 0 {
 	//show_debug_message("game over");	
 }

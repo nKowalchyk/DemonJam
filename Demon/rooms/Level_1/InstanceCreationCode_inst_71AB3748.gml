@@ -1,0 +1,1 @@
+content = "As you move and attack, \nyour oil will dwindle,\nas well as your sanity."

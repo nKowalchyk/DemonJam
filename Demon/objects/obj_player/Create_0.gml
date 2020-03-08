@@ -1,7 +1,7 @@
 /// @description player object
 // I can write my code here
 
-name = "";
+name = "Spooky Jones";
 
 oilMod = 2;
 saneMod = 1;
@@ -19,6 +19,8 @@ right_hurt_box = instance_create_layer(x + 64, y, "GUI", obj_hurt_box);
 left_hurt_box = instance_create_layer(x - 64, y, "GUI", obj_hurt_box);
 bottom_hurt_box = instance_create_layer(x, y + 64, "GUI", obj_hurt_box);
 top_hurt_box = instance_create_layer(x, y - 64, "GUI", obj_hurt_box);
+
+
 
 hurt_box_visible = false;
 

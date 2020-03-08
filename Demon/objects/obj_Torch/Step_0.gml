@@ -6,7 +6,7 @@ event_inherited();
 
 if lastRange != range
 {
-	obj_player.sane += 15	
+	obj_player.sane += 40	
 }
 
 lastRange = range;
