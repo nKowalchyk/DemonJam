@@ -7,6 +7,6 @@ with outScore{
 	draw_set_font(fnt_BigRed)
 	vspeed = -6
 	hspeed = irandom(12)-6
-	content = string(global.oilScore)+"!"
+	content = string(floor(global.oilScore))+"!"
 }
 instance_destroy()

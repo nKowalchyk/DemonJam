@@ -30,23 +30,24 @@ if hp <= 0
 		range = -1
 	}
 }
-
-range = 3	
-if (oil < 66)
+if range != -1
 {
-	range = 2;
-}
+	range = 3	
+	if (oil < 66)
+	{
+		range = 2;
+	}
 
-if (oil < 33)
-{
-	range = 1	;
-}
+	if (oil < 33)
+	{
+		range = 1	;
+	}
 
-if (oil <= 0)
-{
-	range = 0;	
+	if (oil <= 0)
+	{
+		range = 0;	
+	}
 }
-
 if lantern == false
 {
 	range = 0	
@@ -103,6 +104,7 @@ if global.game_state == game_state.input_ready {
 		lantern = false;
 		oil-=0.05
 		hurt_box_visible = false;
+		global.game_state = game_state.player_moving;
 		
 	}
 	
@@ -209,7 +211,7 @@ if global.game_state == game_state.input_ready {
 
 if global.game_state == game_state.player_moving {
 	func_move_agent(self, xx, yy);
-	if abs(x - xx) < 0.1 && abs(y - yy) < 0.1 {
+	if (abs(x - xx) < 0.1 && abs(y - yy) < 0.1) and instance_number(obj_lantern_moving) == 0 {
 		global.game_state = game_state.enemy_moving;
 		can_attack = true;
 		x = round(x);
