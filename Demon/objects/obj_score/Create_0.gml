@@ -12,4 +12,4 @@ if _score == 0
 	instance_destroy()	
 }
 
-content = "Total Score:"+string(_score)
+content = "Total Score: "+string(_score)
