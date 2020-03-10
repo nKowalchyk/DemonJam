@@ -1,0 +1,1 @@
+content = "Some items may help refill your resources."

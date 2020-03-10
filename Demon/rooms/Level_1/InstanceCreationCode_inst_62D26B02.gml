@@ -1,0 +1,1 @@
+content = "Be weary of your resources, they are both vital and finite."

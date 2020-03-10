@@ -1,0 +1,1 @@
+content = "A game made by\nNick Kowalchyk, Alex Huard, and Nancy Wang.\n\nMoral support provided by Alex McGrath."
